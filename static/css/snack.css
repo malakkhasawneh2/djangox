@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url('../images/wp1.jpg');
+    background: linear-gradient( rgba(136, 133, 133, 0.5), rgba(0, 0, 0, 0.6) ), url('../images/wp1.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body{
 h1{
     font-size: 70px;
     text-align: center;
-    color: white;
+    color: rgb(47, 179, 202);
     padding-bottom: 100px;
     
 }
@@ -17,19 +17,19 @@ h1{
 h2{
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: rgb(22, 236, 218);
  
 }
 h3{
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: rgb(0, 255, 234);
     
 }
 .list{
     font-size: 25px;
     text-align: center;
-    color: orange;
+    color: rgb(69, 68, 143);
     padding-bottom: 100px;
     font-weight: 900;
 }
@@ -37,12 +37,12 @@ h3{
 a{
     
     text-align: center;
-    color: orange;
+    color: rgb(25, 0, 255);
     padding-bottom: 100px;
     font-size: 20px;
 }
 .create{
-    color: orange;
+    color: rgb(75, 83, 153);
     font-size: 30px;
 }
 ul{

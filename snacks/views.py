@@ -8,7 +8,7 @@ from django.urls.base import reverse
 # Create your views here.
 
 class SnackCreatView(CreateView):
-    template_name='snack_create.html'
+    template_name='snacks/snack_create.html'
     fields=['title','purchaser','description']
     model=Snack
 
@@ -17,17 +17,17 @@ class SnackListView(ListView):
     model=Snack
 
 class SnackDetailView(DetailView):
-    template_name='snack_detail.html'
+    template_name='snacks/snack_detail.html'
     model=Snack
 
 class SnackUpdateView(UpdateView):
-    template_name='snack_update.html'
+    template_name='snacks/snack_update.html'
     fields=['title','purchaser','description']
     model=Snack
     
 
 class SnackDeleteView(DeleteView):
-    template_name = "snack_delete.html"
+    template_name = "snacks/snack_delete.html"
     success_url = reverse_lazy("snack_list")
     model = Snack
     success_url=reverse_lazy('snack_list')
